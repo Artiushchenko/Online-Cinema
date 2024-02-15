@@ -1,0 +1,22 @@
+.nav {
+  @apply air-block w-4/5 mx-auto mb-10;
+}
+.nav > ul {
+  @apply flex justify-evenly items-center;
+}
+.nav > ul > li {
+  @apply inline-block;
+}
+.nav > ul > li > a {
+  @apply block px-5 py-4 text-lg transition-colors relative text-white text-opacity-60 hover:text-opacity-100;
+}
+.nav > ul > li > a::before {
+  @apply absolute w-full h-0.5 bg-transparent transition-colors left-0 bottom-0 rounded-md;
+  content: "";
+}
+.nav > ul > li > a.active {
+  @apply text-opacity-100;
+}
+.nav > ul > li > a.active::before {
+  @apply bg-primary;
+}/*# sourceMappingURL=AdminNavigation.module.css.map */

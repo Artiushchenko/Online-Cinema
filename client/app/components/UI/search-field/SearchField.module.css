@@ -1,0 +1,15 @@
+.search {
+  @apply rounded-3xl border border-gray-700 px-3 py-2 flex items-center transition-colors;
+}
+.search > svg {
+  @apply fill-gray-600 mr-2 text-3xl transition-colors;
+}
+.search > input {
+  @apply text-white placeholder:text-gray-600 block w-full bg-transparent outline-none outline-border-none;
+}
+.search:focus-within {
+  @apply border-gray-600;
+}
+.search:focus-within > svg {
+  @apply fill-gray-500;
+}/*# sourceMappingURL=SearchField.module.css.map */

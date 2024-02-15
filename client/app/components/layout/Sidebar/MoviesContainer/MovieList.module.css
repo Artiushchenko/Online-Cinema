@@ -1,0 +1,38 @@
+.list {
+  @apply mt-11 animate-fade;
+}
+.list .heading {
+  @apply font-bold text-xl mb-5 text-white capitalize;
+}
+.list .button {
+  @apply p-2.5 btn-primary block text-center;
+}
+.list .item {
+  @apply mb-4 flex items-stretch;
+}
+.list .item > a img {
+  @apply rounded-image transition-colors;
+  border: 1px solid transparent !important;
+}
+.list .item > a:hover img {
+  border-color: var(--primary-color) !important;
+}
+.list .item .info {
+  @apply ml-4 flex flex-col justify-between;
+  width: 67%;
+}
+.list .item .info .title {
+  @apply text-white text-lg font-medium truncate;
+}
+.list .item .info .genres {
+  @apply text-gray-600 text-sm;
+}
+.list .item .info .rating {
+  @apply flex items-center mb-2;
+}
+.list .item .info .rating > svg {
+  @apply fill-yellow-700 mr-2 text-lg;
+}
+.list .item .info .rating > span {
+  @apply text-white font-medium pt-0.5;
+}/*# sourceMappingURL=MovieList.module.css.map */

@@ -1,0 +1,25 @@
+.list {
+  @apply absolute border border-gray-700 rounded-layout bg-gray-800 w-full animate-fade z-10;
+  top: calc(100% + 15px);
+}
+.list > a {
+  @apply flex items-center py-3 px-4 relative;
+}
+.list > a::after {
+  @apply absolute -right-0.5 h-0 w-0.5 bg-transparent;
+  content: "";
+  top: 28%;
+  transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.list > a:hover::after {
+  @apply bg-primary h-2/5;
+}
+.list > a img {
+  @apply rounded-image;
+}
+.list > a > span {
+  @apply ml-3 text-white truncate;
+}
+.list > a > span:last-child {
+  width: 70%;
+}/*# sourceMappingURL=SearchList.module.css.map */

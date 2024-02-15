@@ -1,0 +1,12 @@
+.form {
+  @apply mt-12;
+}
+.form .fields {
+  @apply flex items-center flex-wrap justify-between;
+}
+.form .fields > div {
+  width: 48%;
+}
+.form > button {
+  @apply mt-10;
+}/*# sourceMappingURL=admin-form.module.css.map */

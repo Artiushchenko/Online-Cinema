@@ -1,0 +1,9 @@
+.actions {
+  @apply flex items-center;
+}
+.actions > button {
+  @apply outline-border-none bg-transparent text-xl text-primary opacity-80 transition-opacity hover:opacity-100;
+}
+.actions > button:first-child {
+  @apply mr-4;
+}/*# sourceMappingURL=AdminActions.module.css.map */

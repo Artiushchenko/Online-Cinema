@@ -1,0 +1,31 @@
+.menu {
+  @apply mb-14 animate-fade;
+}
+.menu .heading {
+  @apply text-gray-500 uppercase text-sm font-semibold pl-layout;
+}
+.menu .ul > li {
+  @apply px-8 border-r-4 border-r-transparent transition-colors;
+}
+.menu .ul > li > a {
+  @apply flex items-center text-gray-600 px-3 mt-6 cursor-pointer;
+}
+.menu .ul > li > a > span,
+.menu .ul > li > a > svg {
+  @apply transition-colors;
+}
+.menu .ul > li > a > span {
+  @apply ml-3 text-lg hover:text-white;
+}
+.menu .ul > li > a > svg {
+  @apply text-2lg;
+}
+.menu .ul > li.active {
+  @apply border-r-primary;
+}
+.menu .ul > li.active > a > span {
+  @apply text-white;
+}
+.menu .ul > li.active > a > svg {
+  @apply fill-primary;
+}/*# sourceMappingURL=Menu.module.css.map */
